@@ -22,15 +22,20 @@ This tool performs automated validation of the Fake Store API's product data to 
 2. Install the required dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 
-Run the script using Python:
+Run the script using Python 3:
 
 ```bash
-python api_test.py
+python3 api_test.py
+```
+
+Note: If you're using Ubuntu/Debian and want to use the `python` command instead of `python3`, you can install the `python-is-python3` package:
+```bash
+sudo apt install python-is-python3
 ```
 
 ### Example Output
